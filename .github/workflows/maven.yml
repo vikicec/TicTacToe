@@ -28,5 +28,3 @@ jobs:
       with:
         name: tic-tac-toe-jar
         path: target/*.jar
-
-Fix deprecated upload-artifact v3 -> v4
