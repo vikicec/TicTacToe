@@ -2,14 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.printf("restart game");
-
-        System.out.printf("game end notification");
-        System.out.printf("display board");
-
-        System.out.printf("place move");
-
+            Player player1 = new Player('X');
+            Player player2 = new Player('O');
+            TicTacToe game = new TicTacToe(player1,player2);
+            game.start();
 
     }
 }
